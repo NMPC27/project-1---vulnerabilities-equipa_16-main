@@ -63,8 +63,11 @@ The app covers four major vulnerabilities, each aligned with the CWE (Common Wea
 
 Run either the secure or insecure version:
 
-    python app_insecure.py
-    python app_secure.py
+    cd app
+    python webapp.py
+
+    cd app_sec    (secure)
+    python webapp.py
 
 
 Access the web app at http://127.0.0.1:5000/
